@@ -1,0 +1,68 @@
+treversing in binary tree 
+
+preorder - O(n)
+    root 
+    left subtree
+    right subtree
+
+inOrder - O(n)
+    left subtree 
+    root
+    right subtree
+
+postOrder traversing - O(n)
+    left subtree
+    right subtree
+    root
+
+levelOrder traversing - O(n)
+    printing level by level 
+    we use queue data struture in this 
+
+    BFS - breadth first search property
+    DFS - Depth first search property
+
+
+Binary Search Tree(BST)--
+    time complexity -- O(logn)  - if it is only balanced tree 
+    BST is binary tree that follows the below rule -
+    left subtree nodes are always less than root 
+    right subtree > root
+    left subtree and right subtree are also BST with no duplicates
+
+    BST Special property - 
+    inOrder traversing gives a sorted sequence  -- important 
+    skewed tree - the tree that has node only one side -- O(n)
+
+    Deleting Nodes for BST :
+        there are 3 cases :
+            no child -- iss case mee dimag nahi laga na hai - we have to return null in place of node
+            one child - we will replace the node with child node
+            two child - we will replace the node with inOrder successor from child nodes.
+            inOrder successor - we can find it in left most in right subtree .
+            
+
+HashSet and HashMap -- 
+    insert  - O(1)
+    Search - O(1)
+    delete/Remove - O(1)
+    it takes constant time comparing to other data struture
+
+HashMap -- 
+    
+
+
+
+
+
+Graphs -- 
+    it is a non-linear data struture .
+    
+
+
+
+
+
+
+
+    
